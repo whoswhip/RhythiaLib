@@ -12,6 +12,8 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>MIT License</Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/whoswhip/RhythiaLib</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <None Include="..\LICENSE">
