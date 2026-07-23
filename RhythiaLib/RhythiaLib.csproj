@@ -5,6 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Authors>$(AssemblyName)</Authors>
+    <Authors>whoswhip</Authors>
+    <Description>A .NET 10 library for reading writing Rhythia files.</Description>
+    <PackageProjectUrl>https://github.com/whoswhip/RhythiaLib</PackageProjectUrl>
+    <PackageTags>parser;rhythia;rhr;encoder</PackageTags>
   </PropertyGroup>
 </Project>
