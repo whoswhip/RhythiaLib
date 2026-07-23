@@ -40,5 +40,10 @@ Run all tests with:
 dotnet test
 ```
 
+## Credits
+
+- [yoru](https://github.com/yo-ru) - Their [rhrParse](https://github.com/yo-ru/rhrParse) repo was used as reference for unknown fields and backwards compatibility.
+
 ## License
+
 Licensed under the MIT License. See [LICENSE](./LICENSE) for details.
