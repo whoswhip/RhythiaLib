@@ -11,8 +11,13 @@
     <PackageTags>parser;rhythia;rhr;encoder</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>MIT License</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
