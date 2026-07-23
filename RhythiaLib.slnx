@@ -1,0 +1,7 @@
+<Solution>
+  <Project
+    Path="RhythiaLib.Tests/RhythiaLib.Tests.csproj"
+    Id="53c1fda6-5651-4067-abc1-b882c182680e"
+  />
+  <Project Path="RhythiaLib/RhythiaLib.csproj" />
+</Solution>
