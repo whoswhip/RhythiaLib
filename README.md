@@ -2,7 +2,7 @@
 
 A .NET 10 C# library for reading and writing Rhythia replay and map files.
 
-Currently only `.rhr` replay files are supported, but `.rhm` map files are easy to implement in the coming days.
+Currently only `.rhr` replay files are supported, but `.rhm` map files are easy to implement and will be implemented in the coming days.
 
 This library is designed for the Steam version of Rhythia, but it may work with the open-source one as well if they end up using the same formats. As of now (July 2026) the open-source version supports `.rhm` maps.
 
