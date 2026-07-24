@@ -10,5 +10,16 @@ namespace RhythiaLib.Rhr
         public const int FailTime = 2026_02_22;
         public const int Int32Time = 2026_05_10;
         public const int BeatmapHash = 2026_05_17;
+
+        public const int LatestSupported = BeatmapHash;
+
+        public static void Validate(int version)
+        {
+            // oldest version isnt validated since idk when the format was made and if it breaks before 2026/01/18
+            if (version <= 0)
+                throw new InvalidRhrFormatException($"Invalid RHR version: {version}.");
+            else if (version > LatestSupported)
+                throw new InvalidRhrFormatException($"RHR version {version} is newer than the latest supported version, {version}");
+        }
     }
 }

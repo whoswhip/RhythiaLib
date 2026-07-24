@@ -17,6 +17,7 @@ namespace RhythiaLib.Rhr.Internal
             try
             {
                 int version = reader.ReadInt32();
+                RhrVersions.Validate(version);
 
                 RhrScoreData scoreData = RhrScoreDataCodec.Read(reader, version);
 
