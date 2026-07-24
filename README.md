@@ -2,8 +2,6 @@
 
 A .NET 10 C# library for reading and writing Rhythia replay and map files.
 
-Currently only `.rhr` replay files are supported, but `.rhm` map files are easy to implement and will be implemented in the coming days.
-
 This library is designed for the Steam version of Rhythia, but it may work with the open-source one as well if they end up using the same formats. As of now (July 2026) the open-source version supports `.rhm` maps.
 
 ## Installation
@@ -22,15 +20,17 @@ dotnet add reference path/to/RhythiaLib/RhythiaLib/RhythiaLib.csproj
 
 ## Supported Formats
 
-| Extension | Status    | Description                 |
-| --------- | --------- | --------------------------- |
-| .rhr      | Supported | Rhythia replay file         |
-| .rhm      | Planned   | Rhythia map file/archive    |
-| .sspm     | Possibly  | Legacy/SoundSpace+ map file |
+| Extension | Status    | Description              |
+| --------- | --------- | ------------------------ |
+| .rhr      | Supported | Rhythia replay file      |
+| .rhm      | Supported | Rhythia map file/archive |
+| .sspm     | Possibly  | SoundSpace+ map file     |
+| .ssre     | Possibly  | SoundSpace+ replay file  |
 
 ## Usage
 
 - [RHR Files](./RhythiaLib/Rhr/USAGE.MD)
+- [RHM Files](./RhythiaLib/Rhm/USAGE.MD)
 
 ## Testing
 
@@ -43,6 +43,7 @@ dotnet test
 ## Credits
 
 - [yoru](https://github.com/yo-ru) - Their [rhrParse](https://github.com/yo-ru/rhrParse) repo was used as reference for unknown fields and backwards compatibility.
+- [FOSS Rhythia](https://github.com/Rhythia/Client) - Their map [parser](https://github.com/Rhythia/Client/blob/d931b419853387ef6d2ecd1b378e409f6de6f630/scripts/map/MapParser.cs)/[model](https://github.com/Rhythia/Client/blob/d931b419853387ef6d2ecd1b378e409f6de6f630/scripts/map/Map.cs) was used as reference.
 
 ## License
 
