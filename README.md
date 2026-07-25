@@ -25,6 +25,7 @@ dotnet add reference path/to/RhythiaLib/RhythiaLib/RhythiaLib.csproj
 | .rhr       | Supported | Steam Rhythia replay file      |
 | .rhm       | Supported | Steam Rhythia map file/archive |
 | .sspm      | Planned   | SoundSpace+ map file           |
+| .phxm      | Planned   | FOSS Rhythia map file          |
 | .sspre     | Planned   | SoundSpace+ replay file        |
 | .phxr      | Planned   | FOSS Rhythia replay file       |
 
